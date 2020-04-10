@@ -1,0 +1,27 @@
+services:
+  spark:
+    version: 2.3.3
+
+  hdfs:
+    version: 2.7.7
+
+provider: ec2
+
+providers:
+  ec2:
+    region: eu-central-1 # frankfurt
+    ami: ami-0db770f2aeada318b # ami: ami-bf2ba8d0  # Amazon Linux, frankfurt
+    key-name: b4f
+    identity-file: /Users/ioannis/.amazon/b4f.pem
+    instance-type: m3.large
+    user: ec2-user
+    tenancy: default  # default | dedicated
+    ebs-optimized: no  # yes | no
+    instance-initiated-shutdown-behavior: terminate  # terminate | stop
+
+launch:
+  num-slaves: 2
+  # install-hdfs: True
+  install-spark: True
+
+debug: false
