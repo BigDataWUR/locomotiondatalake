@@ -1,6 +1,6 @@
 # Locomotion data lake  
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ionathan/datalake-locomotion/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BigDataWUR/locomotiondatalake/master)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3563513.svg)](https://doi.org/10.5281/zenodo.3563513)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -33,6 +33,9 @@ In short, we want to combine different sensors in a massive way (and extract fea
 
 
 Original data are proprietary. An subset of 3 turkeys has been released as open access on Zenodo, and can be used to run the code in this repository. The whole solution can be launched through Binder.
-To launch the notebooks, click on the button [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ionathan/datalake-locomotion/master)
+
+To launch the notebooks, click on the button 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BigDataWUR/locomotiondatalake/master)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
